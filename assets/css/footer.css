@@ -13,6 +13,12 @@ img.footerIcon{
 }
 
 .about{
+  color: white;
+  text-shadow:
+  -.1px -.1px 0 	#cccccc,
+  .1px -.1px 0 	#cccccc,
+  -.1px .1px 0 	#cccccc,
+  .1px .1px 0 	#cccccc;  
   margin:auto;
   align-self: center;
   text-align: center;
