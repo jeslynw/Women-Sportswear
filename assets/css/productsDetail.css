@@ -5,6 +5,8 @@ body{
 .container{
     width: 100%;
     display: flex;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 .leftContainer{
