@@ -1,0 +1,199 @@
+body  {
+    /* Set font for the page */
+    font-family: 'Lato';
+    background-image:url('../images/gif4.gif');
+    /* make gif cover the whole page, stretch to fit */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* make the background fixed, so it doesn't move when scrolling */
+    background-color: #000000;
+}
+
+hr.solid {
+    border-top: 0px solid #CFCFCF;
+  }
+
+.box
+{
+    /* make the box in the center of the page */
+    position: absolute;
+    /* put the whole box in the center of the page */
+    top: 45%;
+    left: 50%;
+    width: 60%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    background-color: #CFCFCF;
+
+    /* make box slightly transparent */
+    opacity: 0.9;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.loginTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    /* have some space between the title and the box */
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.signUpLogin button {
+    /* set the position of the buttons to the centre */
+    position: relative;
+    /* left: 5%; */
+
+    margin-top: 20px;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginTop{
+    font-family: 'Lato';
+    font-size: 20px;
+    background-color: #909090;
+    transition: all 0.5s;
+    border: none;
+    height: 50px;
+    width: 400px;
+}
+
+.loginTop:hover {
+    font-family: 'Lato';
+    font-size: 20px;
+    background-color: #909090;
+    transition: all 0.5s;
+    border: none;
+    height: 50px;
+    width: 400px;
+    transform: scaleX(1.05);
+}
+
+.signupTop {
+    font-family: 'Lato';
+    font-size: 20px;
+    background-color: #CFCFCF;
+    transition: all 0.5s;
+    border: none;
+    height: 50px;
+    width: 400px;
+}
+
+.signupTop:hover {
+    font-family: 'Lato';
+    font-size: 20px;
+    background-color: #CFCFCF;
+    transition: all 0.5s;
+    border: none;
+    height: 50px;
+    width: 400px;
+    transform: scaleX(1.05);
+}
+
+.userText {
+    /* align it to the left of the input box */
+    position: relative;
+    right: 25%;
+    margin-bottom: 10px;
+}
+
+.loginForm {
+    text-align: center;
+    font-size: 20px;
+
+    /* username on top of password */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.username{
+    /* change the size of the input box */
+    transition: all 0.5s;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+}
+
+.password {
+    /* change the size of the input box */
+    transition: all 0.5s;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+}
+
+.usernameTransformed {
+    /* change the size of the input box */
+    width: 60%;
+    height: 40px;
+    transition: all 0.5s;
+    transform: scaleX(1.05);
+    margin-bottom: 10px;
+    border-radius: 8px; 
+}
+
+.passwordTransformed {
+    /* change the size of the input box */
+    width: 60%;
+    height: 40px;
+    transition: all 0.5s;
+    transform: scaleX(1.05);
+    margin-bottom: 10px;
+    border-radius: 8px; 
+}
+
+.loginButton {
+    font-family: 'Lato';
+    background-color: #daee11;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    transition: all 0.5s;
+    border-radius: 8px; 
+}
+
+.loginButton:hover {
+    font-family: 'Lato';
+    background-color: #0bff4c;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    transition: all 0.5s;
+    transform: scaleX(1.05);
+    border-radius: 8px; 
+}
+
+.forget {
+    font-family: 'Lato';
+    color: #000000;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+
+
+::placeholder{
+    color: #7393B3;
+    font-family: 'Lato';
+}
