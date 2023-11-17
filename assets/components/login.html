@@ -1,0 +1,32 @@
+<!-- A  -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Micasa</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script type="text/javascript" src="../js/login.js"></script>
+    </head>
+    <body>
+        <div class="box">
+            <div id="loginTitle" class="loginTitle">Micasa, your home</div>
+            <div id="signUpLogin" class="signUpLogin">
+                <!-- Two buttons side by side -->
+                <button class="loginTop" id="login" onclick="window.location.href='account.html'">LOGIN</button>
+                <button class="signupTop" id="signup" onclick="window.location.href='signup.html'">SIGN UP</button>
+            </div>
+            <hr class="solid">
+            <form>
+                <div class="loginForm" border-top: 3px solid #bbb;>
+                    <div class="userText">Username: </div>
+                    <input type="text" class="username" id="username" name="username" placeholder="Username" onfocus="onClickChangeStyleUser()" onblur="resetUser()">
+                    <div class="userText">Password: </div>
+                    <input type="password" class="password" id="password" name="password" placeholder="Password" onfocus="onClickChangeStylePassword()" onblur="resetPass()">
+                    <button type="submit" class="loginButton" id="submit">Login</button>
+                    <a href="forgetpass.html" class="forget">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
