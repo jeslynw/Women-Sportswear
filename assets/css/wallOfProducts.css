@@ -18,8 +18,9 @@ body{
 .hotButton{
     background-color: white;
     border: white;
-    font-weight: bolder;
     margin-right: 10px;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .onSaleButton{
@@ -54,22 +55,7 @@ body{
 }
 
 .pic{
-    width: 60%;
-    height: auto;
-}
-
-.pic2{
     width: 70%;
-    height: auto;
-}
-
-.pic3{
-    width: 70%;
-    height: auto;
-}
-
-.pic4{
-    width: 65%;
     height: auto;
 }
 
@@ -81,6 +67,13 @@ body{
 
 .clothesName1{
     margin: 0;
+}
+.clothesPrice{
+    color: black;
+}
+
+.clothesDiscPrice{
+    color: red;
 }
 
 .productsPrice{
@@ -102,26 +95,6 @@ body{
     text-align: center;
 }
 
-.pic5{
-    width: 45%;
-    height: auto;
-}
-
-.pic6{
-    width: 68%;
-    height: auto;
-}
-
-.pic7{
-    width: 47%;
-    height: auto;
-}
-
-.pic8{
-    width: 55%;
-    height: auto;
-}
-
 .tr5 td{
     text-align: center;
     width: 100px;
@@ -133,22 +106,13 @@ body{
     text-align: center;
 }
 
-.pic9{
-    width: 70%;
-    height: auto;
+
+.onSaleButton:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
 }
 
-.pic10{
-    width: 60%;
-    height: auto;
-}
-
-.pic11{
-    width: 50%;
-    height: auto;
-}
-
-.pic12{
-    width: 70%;
-    height: auto;
+.newArrivalsButton:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
 }
