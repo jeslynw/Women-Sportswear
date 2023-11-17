@@ -1,35 +1,28 @@
 /* Style the header with a grey background and some padding */
-.header {
+.header2 {
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 20px 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Lato";
   }
   
   /* Style the header links */
-  .header a {
+  .header2 a {
     float: left;
     color: black;
     text-align: center;
-    padding: 12px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: px;
     border-radius: 4px;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    width: 50px;
-    height: auto;
-  }
-
-  img.logo {
-    font-size: 25px;
-    font-weight: bold;
+  .header2 img.logo {
     width: auto;
-    height: 25px;
+    height: 20px;
   }
   
   /* Change the background color on mouse-over */
@@ -60,3 +53,7 @@
       float: none;
     }
   }
+
+body {
+    font-family: "Lato";
+}
