@@ -1,0 +1,78 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../css/SC.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder" class="navbar">
+            
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navBar.html");
+    });
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--end of Navigation bar-->
+    <div class="container">
+        <div class="leftContainer">
+                <h1 class="ShoppingCart">Shopping Cart</h1>
+                <img src="../images/cloth1.png" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$19.99</p>
+                <h4>Quantity</h4>
+                <div class="customSelect">
+                    <select>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+            </div>
+        </div>
+        <div class="rightContainer">
+            <div class="Summary">
+                <h2>Order Summary</h2>
+                <ul>
+                </ul>
+                <h4>Total items: 1</h4>
+            </div>
+    
+            <div class="cart">
+                <h2>Shopping Cart</h2>
+                <ul>
+                </ul>
+                <p>Total: $<span id="total">44.99</span></p>
+                <button type="button" class="checkout">Checkout</button>
+                <button type="button" class="continue">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+    <!--footer bar-->
+    <div id="footer-placeholder" class="footer">
+            
+    </div>
+
+    <script>
+    $(function(){
+    $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+    <!--end of footer bar-->
+</body>
+</html>
