@@ -1,0 +1,105 @@
+body{
+    font-family: 'Lato';
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.leftContainer{
+    width: 50%;
+}
+
+.leftArrow{
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: white;
+    display: flex;
+}
+
+.fa-solid{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.productPic{
+    width: 60%;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.rightContainer{
+    width: 25%;
+    background-color: white;
+}
+
+.productInfoTable{
+    width: 100%;
+}
+
+.th{
+    float: left;
+}
+
+.heading1{
+    font-size: 30px;
+    text-align: left;
+}
+
+.heading2{
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.heading3{
+    font-size: 15px;
+}
+
+.price{
+    height: 50px;
+    font-weight: bolder;
+}
+
+.colour{
+    height: 30px;
+}
+
+.darkGreyIcon{
+    width: 5%;
+    height: auto;
+}
+
+.size{
+    padding-top: 15px;
+}
+
+.trAddToBag{
+    text-align: center;
+}
+
+.addToBagButton{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border: none;
+    padding-top: 15px;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-bottom: 15px;
+    
+}
+
+.emptyTD{
+    height: 50px;
+}   
+
+.shippingText{
+    text-decoration: underline;
+    color: rgb(43, 43, 255);
+    float: right;
+    border: none;
+}

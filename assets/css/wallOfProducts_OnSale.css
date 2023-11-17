@@ -70,10 +70,12 @@ body{
 }
 .clothesPrice{
     color: black;
+    margin: 0;
 }
 
 .clothesDiscPrice{
     color: red;
+    margin: 0;
 }
 
 .productsPrice{
