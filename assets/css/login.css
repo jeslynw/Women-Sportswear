@@ -22,7 +22,7 @@ hr.solid {
     /* put the whole box in the center of the page */
     top: 45%;
     left: 50%;
-    width: 40%;
+    width: 60%;
     padding: 10px;
     transform: translate(-50%,-50%);
     background-color: #CFCFCF;
