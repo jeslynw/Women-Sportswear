@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <title>Micasa</title>
+    <style>
+        html
+        {
+            overflow-y: scroll;
+        }
+        body
+        {
+            position: absolute;
+            font-family: "Lato";
+            width: 100%;
+        }
+        .row
+        {   
+            width: 100%;
+            height: 500px;
+            background-color: #CFCFCF;
+            background-image: url('../images/gif2.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        .row h3
+        {
+            font-size: 50px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-top: 70px;
+            text-shadow: 2px 5px 5px #000000;
+        }
+        .row p
+        {
+            font-size: 15px;
+            color: #CFCFCF;
+            text-align: center;
+            text-shadow: 2px 5px 5px #000000;
+            margin-top: 0;
+        }
+        .row::after
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .row button
+        {
+            height: 50px;
+            width: 200px;
+            background-color :#FFFFFF;
+            color: #000000;
+            margin-top: 100px;
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .header
+        {
+            font-size: 40px;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .header p
+        {
+            font-size: 15px;
+            color: #000000;
+            text-align: center;
+            margin-top: 0;
+        }
+        .whiterow:after
+        {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .whiterow
+        {
+            display: flex;
+            margin-top: 50px;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #FFFFFF;
+            margin-bottom: 50px;
+        }
+        .frame
+        {
+            width: 80%;
+            height: 80%;
+            padding: 50px;
+            background-color: #C5c5c5;
+        }
+        .column
+        {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .frame img
+        {
+            width: 90%;
+            height: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .frame button
+        {
+            height: 50px;
+            width: 150px;
+            background-color :#000000;
+            color: #FFFFFF;
+            margin-top: 50px;
+            text-align: center;
+            display: block;
+            margin-left: 50px;
+        }
+
+        .center-container { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+        } 
+ 
+        .scrollable-container { 
+            overflow-x: auto; 
+            white-space: nowrap; 
+            display: flex; 
+        }
+
+        .rowsimple::after
+        {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .rowsimple
+        {
+            display: flex;
+            margin-top: 50px;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #FFFFFF;
+            margin-bottom: 50px;
+        }
+
+        .rightcolumn
+        {
+            width: 50%;
+            height: 50%;
+            text-align: center;
+            float: left;
+            margin-right: 100px;
+        }
+        .rightcolumn h3
+        {
+            font-size: 50px;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-shadow: 1px 2px 2px #000000;
+        }
+
+        .rightcolumn p
+        {
+            font-size: 20px;
+            color: #000000;
+            text-align: center;
+            margin-top: 0;
+            line-height: 1.5;
+        }
+
+        .leftcolumn img
+        {
+            padding: 30px;
+            float: left;
+            text-align: center;
+            margin-left: 100px;
+            width: 50%;
+            height: 90%;
+        }
+ 
+        /* Scrollbar Track */ 
+        .scrollable-container::-webkit-scrollbar { 
+            width: 12px; 
+        } 
+ 
+        /* Handle on hover */ 
+        .scrollable-container::-webkit-scrollbar-thumb:hover { 
+            background: #888; 
+        } 
+ 
+        /* Handle */ 
+        .scrollable-container::-webkit-scrollbar-thumb { 
+            background: #aaa; 
+            border-radius: 10px; 
+        } 
+ 
+        /* Track */ 
+        .scrollable-container::-webkit-scrollbar-track { 
+            background: #f1f1f1; 
+            border-radius: 10px; 
+        } 
+ 
+        /* Handle on drag */ 
+        .scrollable-container::-webkit-scrollbar-thumb:active { 
+            background: #999; 
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--  -->
+    <div id="nav-placeholder" class="navbar">
+            
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navBar.html");
+    });
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--  -->
+    <div class = "row">
+        <h3>M I C A S A</h3>
+        <p>Look like a beauty, train like a beast</p>
+        <button type="button">SHOP NOW!</button>
+    </div>
+    <div class = "header">
+        <h3>New Collections</h3>
+        <p>Get ready to move with new collection</p>
+    </div>
+    <div class="whiterow">
+        <div class="scrollable-container" id="scrollableContainer">
+            <div class="column">
+                <div class = "frame">
+                    <div class="image">
+                        <img src="../images/photo_2023-11-17 16.09.50.jpeg" alt="image">
+                    </div>
+                    <div class = button>
+                        <button type="button">SPORT BRA</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class = "frame">
+                    <div class="image">
+                        <img src="../images/photo_2023-11-17 16.09.50.jpeg" alt="image">
+                    </div>
+                    <div class = button>
+                        <button type="button">LEGGINGS</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class = "frame">
+                    <div class="image">
+                        <img src="../images/photo_2023-11-17 16.09.50.jpeg" alt="image">
+                    </div>
+                    <div class = button>
+                        <button type="button">SHOES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class = "frame">
+                    <div class="image">
+                        <img src="../images/photo_2023-11-17 16.09.50.jpeg" alt="image">
+                    </div>
+                    <div class = button>
+                        <button type="button">JACKETS</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class = "frame">
+                    <div class="image">
+                        <img src="../images/photo_2023-11-17 16.09.50.jpeg" alt="image">
+                    </div>
+                    <div class = button>
+                        <button type="button">SWEATERS</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class = "frame">
+                    <div class="image">
+                        <img src="../images/photo_2023-11-17 16.09.50.jpeg" alt="image">
+                    </div>
+                    <div class = button>
+                        <button type="button">HATS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "rowsimple">
+        <div class = "leftcolumn">
+            <img src = "../images/photo_2023-11-17 16.07.19.jpeg" alt = "image">
+        </div>
+        <div class = "rightcolumn">
+            <h3>OUR BEST PRODUCT</h3>
+            <p>Introducing our premium sportswear line, designed for optimal 
+                performance and style. The combination of cutting-edge fabric 
+                technology for breathability and flexibility, ensuring comfort during intense workouts. 
+                With a sleek and modern design, this sportswear offers a perfect blend of 
+                fashion and function, making it the ideal choice for active individuals who prioritize
+                 both performance and aesthetics. Elevate your fitness experience with our top-of-the-line 
+                 sportswear.</p> 
+        </div>
+    </div>
+
+        <!--footer bar-->
+        <div id="footer-placeholder" class="footer">
+            
+        </div>
+
+        <script>
+        $(function(){
+        $("#footer-placeholder").load("footer.html");
+        });
+        </script>
+        <!--end of footer bar-->
+        
+</body>
+</html>
