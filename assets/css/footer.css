@@ -1,0 +1,27 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #daee11;
+    color: white;
+  }
+
+img.footerIcon{
+  width: 250px;
+  height: 60px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.about{
+  color: black;
+  text-shadow:
+  -.1px -.1px 0 	#cccccc,
+  .1px -.1px 0 	#cccccc,
+  -.1px .1px 0 	#cccccc,
+  .1px .1px 0 	#cccccc;  
+  margin:auto;
+  align-self: center;
+  text-align: center;
+  width: 70%;
+  font-size: 15px;
+}
