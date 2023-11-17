@@ -22,7 +22,7 @@ hr.solid {
     /* put the whole box in the center of the page */
     top: 45%;
     left: 50%;
-    width: 60%;
+    width: 40%;
     padding: 10px;
     transform: translate(-50%,-50%);
     background-color: #CFCFCF;
@@ -30,8 +30,8 @@ hr.solid {
     /* make box slightly transparent */
     opacity: 0.9;
 
-    border-radius: 8px; /* Optional: Add rounded corners */ 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .loginTitle {
@@ -53,8 +53,8 @@ hr.solid {
     justify-content: center;
     align-items: center;
 
-    border-radius: 8px; /* Optional: Add rounded corners */ 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .loginTop{
@@ -99,8 +99,6 @@ hr.solid {
     transform: scaleX(1.05);
 }
 
-
-
 .userText {
     /* align it to the left of the input box */
     position: relative;
@@ -126,7 +124,7 @@ hr.solid {
     width: 60%;
     height: 40px;
     margin-bottom: 10px;
-    border-radius: 8px; /* Optional: Add rounded corners */ 
+    border-radius: 8px; 
 }
 
 .password {
@@ -135,7 +133,7 @@ hr.solid {
     width: 60%;
     height: 40px;
     margin-bottom: 10px;
-    border-radius: 8px; /* Optional: Add rounded corners */ 
+    border-radius: 8px; 
 }
 
 .usernameTransformed {
@@ -145,7 +143,7 @@ hr.solid {
     transition: all 0.5s;
     transform: scaleX(1.05);
     margin-bottom: 10px;
-    border-radius: 8px; /* Optional: Add rounded corners */ 
+    border-radius: 8px; 
 }
 
 .passwordTransformed {
@@ -155,7 +153,7 @@ hr.solid {
     transition: all 0.5s;
     transform: scaleX(1.05);
     margin-bottom: 10px;
-    border-radius: 8px; /* Optional: Add rounded corners */ 
+    border-radius: 8px; 
 }
 
 .loginButton {
@@ -168,7 +166,7 @@ hr.solid {
     cursor: pointer;
     width: 60%;
     transition: all 0.5s;
-    border-radius: 8px; /* Optional: Add rounded corners */ 
+    border-radius: 8px; 
 }
 
 .loginButton:hover {
@@ -182,8 +180,7 @@ hr.solid {
     width: 60%;
     transition: all 0.5s;
     transform: scaleX(1.05);
-    border-radius: 8px; /* Optional: Add rounded corners */ 
-    
+    border-radius: 8px; 
 }
 
 .forget {
