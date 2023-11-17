@@ -1,0 +1,154 @@
+body{
+    font-family: 'Lato';
+}
+
+.titleContainer{
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+
+.ourProducts{
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.hotButton{
+    background-color: white;
+    border: white;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.onSaleButton{
+    background-color: white;
+    border: white;
+    margin-right: 10px;
+}
+
+.newArrivalsButton{
+    background-color: white;
+    border: white;
+}
+
+.productsTable{     
+    width: 100%;
+    border: none;
+    /* border-collapse: collapse; */
+}
+
+.tr1 td{
+    /* border:1px solid black; */
+    width: 100px;
+}
+
+.tr1{
+    width: 100%;
+    text-align: center;
+}
+
+.empty{
+    width: 5%;
+}
+
+.pic{
+    width: 70%;
+    height: auto;
+}
+
+.pic2{
+    width: 70%;
+    height: auto;
+}
+
+.pic3{
+    width: 70%;
+    height: auto;
+}
+
+.pic4{
+    width: 65%;
+    height: auto;
+}
+
+.productsName{
+    width: 100% ;
+    text-align: center;
+    height: 10px;
+}
+
+.clothesName1{
+    margin: 0;
+}
+
+.productsPrice{
+    text-align: center;
+    width: 5px;
+}
+
+.emptyTR{
+    height: 40px;
+}
+
+.tr4 td{
+    text-align: center;
+    width: 100px;
+}
+
+.tr4{
+    width: 100%;
+    text-align: center;
+}
+
+.pic5{
+    width: 45%;
+    height: auto;
+}
+
+.pic6{
+    width: 68%;
+    height: auto;
+}
+
+.pic7{
+    width: 47%;
+    height: auto;
+}
+
+.pic8{
+    width: 55%;
+    height: auto;
+}
+
+.tr5 td{
+    text-align: center;
+    width: 100px;
+    /* border:1px solid black; */
+}
+
+.tr5{
+    width: 100%;
+    text-align: center;
+}
+
+.pic9{
+    width: 70%;
+    height: auto;
+}
+
+.pic10{
+    width: 60%;
+    height: auto;
+}
+
+.pic11{
+    width: 50%;
+    height: auto;
+}
+
+.pic12{
+    width: 70%;
+    height: auto;
+}
