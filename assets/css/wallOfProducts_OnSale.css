@@ -105,3 +105,13 @@ body{
     width: 100%;
     text-align: center;
 }
+
+.hotButton:hover{
+    background-color: rgb(233, 231, 235);
+    text-decoration: underline;
+}
+
+.newArrivalsButton:hover{
+    background-color: rgb(233, 231, 235);
+    text-decoration: underline;
+}
