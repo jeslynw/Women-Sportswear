@@ -46,9 +46,10 @@ hr.solid {
 .signUpLogin button {
     /* set the position of the buttons to the centre */
     position: relative;
-    left: 5%;
+    /* left: 5%; */
 
     margin-top: 20px;
+    margin-left: 28px;
     justify-content: center;
     align-items: center;
 
