@@ -108,11 +108,11 @@ body{
 
 
 .onSaleButton:hover{
-    background-color: blueviolet;
+    background-color: rgb(233, 231, 235);
     text-decoration: underline;
 }
 
 .newArrivalsButton:hover{
-    background-color: blueviolet;
+    background-color: rgb(233, 231, 235);
     text-decoration: underline;
 }
